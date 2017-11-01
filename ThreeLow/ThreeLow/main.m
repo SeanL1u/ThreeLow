@@ -1,18 +1,30 @@
 #import <Foundation/Foundation.h>
 #import "Dice.h"
+#import "GameController.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray* values;
-    
+        GameController* player1 = [GameController new];
         
-       
-            Dice* d1 = [Dice roll_basic];
-            Dice* d2 = [Dice roll_basic];
-            Dice* d3 = [Dice roll_basic];
-            Dice* d4 = [Dice roll_basic];
-            Dice* d5 = [Dice roll_basic];
-        values = @[d1,d2,d3,d4,d5];
+        while (player1.rolledValues.count > 6) {
+        
+        GameController* player1 = [GameController new];
+        [player1 hold];
+        [player1 logOutCome];
+        NSLog(@"%@", player1.rolledValues);
+        
+            
         }
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    }
         
      
         
@@ -20,8 +32,7 @@ int main(int argc, const char * argv[]) {
         
         
         
-        
-    }
+    
     return 0;
 }
 

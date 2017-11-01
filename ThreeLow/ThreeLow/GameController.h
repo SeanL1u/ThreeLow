@@ -15,6 +15,7 @@
 @property (nonatomic, strong) NSArray* dies;
 @property NSInteger holdAmount;
 @property (nonatomic,strong) NSMutableArray* rolledValues;
+-(void)logOutCome;
 -(void)diesGenerate;
 -(void)hold;
 @end
