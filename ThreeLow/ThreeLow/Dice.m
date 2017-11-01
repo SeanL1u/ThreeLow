@@ -19,7 +19,7 @@
 }
 
 - (void)roll {
-    dice.faceValue = arc4random_uniform(5) + 1;
+    self.faceValue = arc4random_uniform(5) + 1;
 }
 
 //+(instancetype)roll_basic{
