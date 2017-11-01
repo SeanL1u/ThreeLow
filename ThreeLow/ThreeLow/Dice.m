@@ -21,6 +21,11 @@
 - (void)roll {
     self.faceValue = arc4random_uniform(5) + 1;
 }
+//-(NSString*)
+
+- (NSString *)description {
+    return [NSString stringWithFormat: @"%i",self.faceValue];
+}
 
 //+(instancetype)roll_basic{
 //    Dice* dice = [[Dice alloc]init];

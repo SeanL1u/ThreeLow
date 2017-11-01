@@ -22,7 +22,7 @@
     self.dies = @[d1,d2,d3,d4,d5];
 }
 -(void)hold{
-    NSLog(@"Hold?/n");
+    NSLog(@"Hold?");
     BOOL holdNotValid = YES;
     while(holdNotValid){
     NSInteger holdHowMany = [InputControl new].numValue;
@@ -37,10 +37,10 @@
 -(void)logOutCome{
     NSRange theRange;
     theRange.location = _rolledValues.count;
-    theRange.length = ((6 - _rolledValues.count) - self.holdAmount);
+    theRange.length = ((5 - _rolledValues.count) - self.holdAmount);
     //self.rolledValues += [[self.dies subarrayWithRange:theRange] mutableCopy];
     
-    [self.rolledValues addObjectsFromArray:[[self.dies subarrayWithRange:theRange] mutableCopy]];
+    [self.rolledValues addObjectsFromArray:[self.dies subarrayWithRange:theRange]];
     
 //    [1,2] + [3, 4] => []
     
