@@ -13,6 +13,8 @@
 @interface GameController : NSObject
 
 @property (nonatomic, strong) NSArray* dies;
-@property int holdAmount;
-
+@property NSInteger holdAmount;
+@property (nonatomic,strong) NSMutableArray* rolledValues;
+-(void)diesGenerate;
+-(void)hold;
 @end

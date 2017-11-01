@@ -10,10 +10,24 @@
 
 @implementation InputControl
 
-+(NSString*) getandConvert{
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self getandConvert];
+    }
+    return self;
+}
+
+
+-(void) getandConvert{
     char inputstr[4];
     scanf("%s", inputstr);
-    NSString* whatever = [NSString stringWithUTF8String:inputstr];
-    return whatever;
+    self.currentInputStr = [NSString stringWithUTF8String:inputstr];
+    self.numValue = [_currentInputStr integerValue];
+    
+}
+
+
 
 @end

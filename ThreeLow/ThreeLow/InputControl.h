@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface InputControl : NSObject
-@property NSString* stringValue;
-@property int numValue;
-+(NSString*) getandConvert;
+@property NSString* currentInputStr;
+@property NSInteger numValue;
+-(void) getandConvert;
 @end
