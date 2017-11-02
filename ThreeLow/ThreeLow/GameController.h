@@ -15,8 +15,10 @@
 @property (nonatomic, strong) NSArray* dies;
 @property NSInteger holdAmount;
 @property (nonatomic,strong) NSMutableArray* rolledValues;
+@property int totalscore;
 -(void)logOutCome;
 -(void)diesGenerate;
 -(void)hold;
 -(void)unhold;
+-(void)getTotal;
 @end

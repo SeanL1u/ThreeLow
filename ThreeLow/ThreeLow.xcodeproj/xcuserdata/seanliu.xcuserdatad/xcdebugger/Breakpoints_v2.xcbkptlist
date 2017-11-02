@@ -28,13 +28,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLow/GameController.m"
-            timestampString = "531284155.085791"
+            timestampString = "531328551.563884"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
-            landmarkName = "GameController"
-            landmarkType = "3">
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-logOutCome"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -44,7 +44,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLow/main.m"
-            timestampString = "531284155.085894"
+            timestampString = "531328551.564308"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -60,12 +60,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLow/GameController.m"
-            timestampString = "531284155.086143"
+            timestampString = "531328551.564545"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-unhold"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-logOutCome"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -76,12 +76,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLow/GameController.m"
-            timestampString = "531284155.086219"
+            timestampString = "531328551.564824"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "-unhold"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-logOutCome"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -92,7 +92,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ThreeLow/GameController.m"
-            timestampString = "531284155.086271"
+            timestampString = "531328551.565094"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"

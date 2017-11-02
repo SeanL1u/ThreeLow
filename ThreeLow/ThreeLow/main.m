@@ -15,10 +15,9 @@ int main(int argc, const char * argv[]) {
         }
         
         NSLog(@"%@", player1.rolledValues);
+        [player1 getTotal];
+        NSLog(@"%i", player1.totalscore);
         
-        
-    
-    
     
     
     

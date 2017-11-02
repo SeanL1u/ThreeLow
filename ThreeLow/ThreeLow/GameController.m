@@ -36,10 +36,13 @@
     BOOL unHoldNotValid = YES;
     while(unHoldNotValid){
         NSInteger unHoldHowMany = [InputControl new].numValue;
+        
         if(unHoldHowMany <= _holdAmount){
             _holdAmount -= unHoldHowMany;
             unHoldNotValid = NO; }
-    }}
+    }
+    
+}
     
 
 -(void)logOutCome{
@@ -54,8 +57,16 @@
     
 }
 
-
-
+-(void)getTotal{
+    int sum = 0;
+    for(int i = 0; (i < self.rolledValues.count); i++){
+        if([[self.rolledValues objectAtIndex: i] faceValue] != 3){
+            sum += [[self.rolledValues objectAtIndex: i] faceValue];
+            
+        }}
+    self.totalscore = sum;
+    
+}
 
 
 @end
