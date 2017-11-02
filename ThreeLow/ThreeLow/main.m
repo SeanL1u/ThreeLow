@@ -9,6 +9,8 @@ int main(int argc, const char * argv[]) {
         
             [player1 hold];
             [player1 logOutCome];
+            [player1 unhold];
+            [player1 logOutCome];
             [player1 diesGenerate];
         }
         

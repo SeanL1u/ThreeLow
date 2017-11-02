@@ -29,9 +29,17 @@
         if((holdHowMany + self.rolledValues.count) < 5){
         _holdAmount = holdHowMany;
             holdNotValid = NO; }
-    
     }}
 
+-(void)unhold{
+    NSLog(@"UnHold?");
+    BOOL unHoldNotValid = YES;
+    while(unHoldNotValid){
+        NSInteger unHoldHowMany = [InputControl new].numValue;
+        if(unHoldHowMany <= _holdAmount){
+            _holdAmount -= unHoldHowMany;
+            unHoldNotValid = NO; }
+    }}
     
 
 -(void)logOutCome{

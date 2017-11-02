@@ -18,4 +18,5 @@
 -(void)logOutCome;
 -(void)diesGenerate;
 -(void)hold;
+-(void)unhold;
 @end
